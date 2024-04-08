@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "casinotech",
+  "version": "${version}",
+  "name": "CasinoTech",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/S9902/CasinoTech"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/casinotech/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.pc314159.casinotech.client.CasinoTechClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "malilib": ">=${malilib_version}"
+  }
+}
